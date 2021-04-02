@@ -72,6 +72,7 @@ year_slider = dcc.RangeSlider(
 # The app itself
 
 app = dash.Dash(__name__, external_stylesheets='')
+server = app.server
 
 app.layout = html.Div([
 
