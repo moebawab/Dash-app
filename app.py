@@ -12,7 +12,7 @@ import pandas as pd
 
 #df = pd.read_csv(path + 'emissions.csv')
 
-df = pd.read_csv('movies.csv')
+df = pd.read_csv('movies.csv',encoding='latin1')
 
 """
 Equivalent way to iteratively build country_options from the dataset's countries:
