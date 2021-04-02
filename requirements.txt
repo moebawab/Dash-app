@@ -6,5 +6,4 @@ dash_renderer
 dash-html-components
 dash-core-components
 pandas
-numpy
 dash.dependencies
