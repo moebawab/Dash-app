@@ -87,14 +87,14 @@ server = app.server
 
 app.layout = html.Div([
 
-    html.H1('Exploring the different Genres in Movie Industry', style={'background-color': '#8B0000', 'text-align': 'center'}),
+    html.H1('Exploring Genres in Movie Industry', style={ 'text-align': 'center','Color': '#228B22'}), #'background-color': '#000000',
 
     html.Div([
         html.Div([
-            html.H1('Please choose 1 country', style={'background-color': '#8B0000', 'text-align': 'center'}),
+            html.H1('Please choose 1 country', style={ 'text-align': 'center','fontColor': 'white'}), #'background-color': '#000000',
             dropdown_country,
             html.Br(),
-            html.H1('You can choose 1 genre', style={'background-color': '#8B0000', 'text-align': 'center'}),
+            html.H1('You can choose more than 1 genre', style={'text-align': 'center','fontColor': 'white'}),#'background-color': '#000000', 
             dropdown_genre,
             html.Br(),
             radio_moviedata,
@@ -114,7 +114,7 @@ app.layout = html.Div([
 #            dcc.Graph(id='graph_example2')
 #        ], style={'width': '80%'}, className='box')
     
-    ], style={'display': 'flex', 'background-image':'url(https://pe-images.s3.amazonaws.com/basics/cc/gradients/essentials/vertical-black-to-white-gradient.jpg)'}),
+    ], style={'display': 'flex','background-color': '#ADD8E6'}),
 
 
     html.Div([
