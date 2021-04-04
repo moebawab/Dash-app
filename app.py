@@ -94,7 +94,7 @@ app.layout = html.Div([
             html.H1('Please choose 1 country', style={'background-color': '#8B0000', 'text-align': 'center'}),
             dropdown_country,
             html.Br(),
-            html.H1('You can choose more than 1 genre', style={'background-color': '#8B0000', 'text-align': 'center'}),
+            html.H1('You can choose 1 genre', style={'background-color': '#8B0000', 'text-align': 'center'}),
             dropdown_genre,
             html.Br(),
             radio_moviedata,
