@@ -87,13 +87,13 @@ tab_1_layout = html.Div([
     
         html.Div([
             html.Div([
-                html.H2('Do you want to know the best movies released by year? Just check them!'),
-                dcc.Graph(id='sunburst_graph', style={'display': 'inline-block'})
+                html.H2('Where are the most rated movies?'),
+                dcc.Graph(id='choro_graph', style={'display': 'inline-block'})
                 ], className="six columns"),
 
             html.Div([
-                html.H2('Where are the most rating movies?'),
-                dcc.Graph(id='choro_graph', style={'display': 'inline-block'})
+                html.H2('Do you want to know the best movies released by year? Just check them!'),
+                dcc.Graph(id='sunburst_graph', style={'display': 'inline-block'})
             ], className="six columns"),
         ], className="row"),
         
